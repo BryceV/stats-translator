@@ -1,4 +1,5 @@
 # stats-translator
+Tests with the Vue library. This application converts fun facts like "how many times could I have blinked in a work day?" or "how many nba games are in a season of nfl?" 
 
 ## Project setup
 ```
