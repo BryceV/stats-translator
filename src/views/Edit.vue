@@ -18,8 +18,8 @@
     <button type="button" @click="addAction(activityName, getTotalSeconds())" :disabled="isAddDisabled()"> Add </button>
     
     <b-list-group>
-      <b-list-group-item v-for="(option, index) in activityOptions" :key="index">
-        <span>{{option.action}}</span>
+      <b-list-group-item v-for="(option, index) in activityOptions" :key="index" class="d-flex align-items-center">
+        <span  class="flex-grow-1">{{option.action}}</span>
         <b-button variant="danger" @click="deleteAction(index)"> X </b-button>
       </b-list-group-item>
     </b-list-group>
